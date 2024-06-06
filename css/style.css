@@ -1,0 +1,20 @@
+form{
+    overflow: auto;
+    background-color: rgb(71, 79, 122);
+}
+body{
+    background-color: rgb(31, 37, 68);
+    color: rgb(255, 230, 230);
+}
+.btn-dark{
+    background-color: rgb(255, 208, 236)!important;
+    color: rgb(129, 104, 157) !important;
+    border: none !important;
+}
+.btn-dark:hover{
+    background-color: rgb(129, 104, 157) !important;
+    color: rgb(182, 172, 240) !important;
+}
+a{
+    color:rgb(255, 208, 236);
+}
