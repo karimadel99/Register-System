@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Document</title>
 </head>
+
 <body>
 
 
     <form class="container shadow-lg my-4 mx-auto w-50 text-center rounded-3">
-        <h1 class="text-center my-4">Sign In</h1>
-        <input type="text" name="username" id="loginEmail" class="form-control w-75 my-3 mx-auto" placeholder="User Email">
-        <p id="loginEmail-error" class="bg-danger w-50 mx-auto rounded-3"></p>
-        <input type="password" name="" id="loginPassword"class="form-control w-75 my-3 mx-auto" placeholder="Password">
-        <p id="loginPassword-error" class="bg-danger w-50 mx-auto rounded-3"></p>
-        <input class="btn btn-dark btn-lg mx-auto my-3" type="submit" id="signIn" value="Sign in" ></input>
-        <a href="index.html" class="link-underline link-underline-opacity-0 link-opacity-10-hover d-block my-2">Dont have an account? Register now</a>
+        <div class="row align-items-center">
+            <h1 class="text-center mt-4">Sign In</h1>
+
+            <div class="col-lg-6 col-12"> <input type="text" name="username" id="loginEmail"
+                    class="form-control w-75 my-3 mx-auto" placeholder="User Email">
+                <div id="loginEmail-error" class="alert-danger alert w-50 mx-auto"></div>
+                <input type="password" name="" id="loginPassword" class="form-control w-75 my-3 mx-auto"
+                    placeholder="Password">
+                <p id="loginPassword-error" class="alert-danger alert w-50 mx-auto"></p>
+                <input class="btn btn-dark btn-lg mx-auto my-3" type="submit" id="signIn" value="Sign in"></input>
+                <a href="index.html"
+                    class="link-underline link-underline-opacity-0 link-opacity-10-hover d-block my-2">Dont have an
+                    account? Register now</a>
+            </div>
+            <div class="col-lg-6 col-12">
+                <img src="images/Login-amico.png" class="w-100" alt="">
+            </div>
+        </div>
+
     </form>
 
     <script src="js/index.js"></script>
 </body>
+
 </html>

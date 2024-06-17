@@ -18,3 +18,8 @@ body{
 a{
     color:rgb(255, 208, 236);
 }
+.alert{
+--bs-alert-padding-y: 0;
+--bs-alert-padding-x: 0;
+--bs-alert-border: 0 solid var(--bs-alert-border-color);
+}
